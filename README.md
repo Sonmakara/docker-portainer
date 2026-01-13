@@ -1,8 +1,9 @@
 Installing Docker from the Official Repository
 Remove any old Docker versions
 If you have an older version of Docker installed (from your OS repository), let’s remove it to avoid conflicts:
+```
 sudo apt remove docker docker-engine docker.io containerd runc
-
+```
 Update the system and install dependencies
 Before adding Docker’s repository, it’s a good idea to ensure your system is up-to-date and has the necessary packages for secure downloads:
 ```
